@@ -111,9 +111,9 @@ $('#submit').click(function() {
               for (i=0; i<data.content.length; i++){
 //                  alert(data.content[i].name.toUpperCase());
                   var datax = data.content;
-                  var con = "<div class=\"col-xs-12\"> <div class=\"thumbnail shadow\">"+
+                  var con = "<div class=\"col-xs-4\"> <div class=\"thumbnail shadow\">"+
 "<a onclick=\"series("+datax[i].id+",'"+datax[i].name+"');\" href=\"#\"> <img class=\"img-responsive\" id=\"pict\" src=\""+datax[i].image+"\" alt=\"\"> </a>"+
-                            "<div class=\"caption\"> <h3 class=\"judul\"> "+datax[i].name.toUpperCase()+" </h3>"+
+                            "<div class=\"caption\"> <h5 class=\"judul\"> "+datax[i].name.toUpperCase()+" </h5>"+
                             "</div> </div> </div>";
                   if (param == 7){ $("#doorbox").append(con); }else{ $("#windowbox").append(con); }
               }
