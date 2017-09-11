@@ -18,7 +18,7 @@
     <script src="js/app.js"></script>
     
 </head>
-<body onload="get_product_details();">
+<body id="calculator" onload="get_product_details();">
    
      <header>
         <nav class="navbar navbar-inverse">
@@ -63,16 +63,16 @@
                                <th>Dimension (m)</th>
                                <td>:</td>
                                <td> 
-            <input type="text" name="twidth" id="twidth" class="form-control" value="0" placeholder="Width">
+            <input type="text" name="twidth" id="twidth" class="form-control" value="1" placeholder="Width">
                                 </td>
                                <td>
-            <input type="text" name="theight" id="theight" class="form-control" value="0" placeholder="Height">
+            <input type="text" name="theight" id="theight" class="form-control" value="1" placeholder="Height">
                                </td>
                                <td>
-            <input type="text" name="theightkm" id="theightkm" class="form-control" value="0" placeholder="Fixed-Top">
+            <input type="text" name="theightkm" id="theightkm" class="form-control" value="0" placeholder="Fix-T">
                                </td>
                                <td>
-            <input type="text" name="theightkm1" id="theightkm1" class="form-control" value="0" placeholder="Fixed-Bot">
+            <input type="text" name="theightkm1" id="theightkm1" class="form-control" value="0" placeholder="Fix-B">
                                </td>
                            </tr>
                            <tr>
@@ -110,7 +110,7 @@
                            </tr>
                            
                            <tr>
-                               <th>Sills</th>
+                               <th> Frame </th>
                                <td>:</td>
                                <td colspan="4">
                                    <div class="input-group">

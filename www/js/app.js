@@ -9,6 +9,9 @@ document.addEventListener('deviceready', function () {
        e.preventDefault();
        navigator.app.exitApp();
    }
+   else if (bodyId == 'series'){ window.location.href = "index.html";  }
+   else if (bodyId == 'product'){ window.location.href = "series.html";  }
+   else if (bodyId == 'calculator'){ window.location.href = "product.html";  }
    else {
        navigator.app.backHistory()
    }
@@ -113,7 +116,7 @@ $('#submit').click(function() {
                   var datax = data.content;
                   var con = "<div class=\"col-xs-4\"> <div class=\"thumbnail shadow\">"+
 "<a onclick=\"series("+datax[i].id+",'"+datax[i].name+"');\" href=\"#\"> <img class=\"img-responsive\" id=\"pict\" src=\""+datax[i].image+"\" alt=\"\"> </a>"+
-                            "<div class=\"caption\"> <h5 class=\"judul\"> "+datax[i].name.toUpperCase()+" </h5>"+
+                            "<div class=\"caption\"> <h5 class=\"judul strong\"> "+datax[i].name.toUpperCase()+" </h5>"+
                             "</div> </div> </div>";
                   if (param == 7){ $("#doorbox").append(con); }else{ $("#windowbox").append(con); }
               }

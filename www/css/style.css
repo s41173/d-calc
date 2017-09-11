@@ -104,3 +104,9 @@ table{
     background-color: #000;
     margin: 0 0 10px 0;
 }
+
+.strong{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
