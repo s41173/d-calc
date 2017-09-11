@@ -17,7 +17,6 @@ header .navbar{
 .judul{
     font-family: 'Arial';
     font-weight: normal;
-    text-align: center;
 }
 
 /*Edited*/
@@ -109,4 +108,5 @@ table{
     font-weight: bold;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
