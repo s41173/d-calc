@@ -9,9 +9,9 @@ document.addEventListener('deviceready', function () {
        e.preventDefault();
        navigator.app.exitApp();
    }
-   else if (bodyId == 'series'){ window.location.href = "index.html";  }
-   else if (bodyId == 'product'){ window.location.href = "series.html";  }
-   else if (bodyId == 'calculator'){ window.location.href = "product.html";  }
+//   else if (bodyId == 'series'){ window.location.href = "index.html";  }
+//   else if (bodyId == 'product'){ window.location.href = "series.html";  }
+//   else if (bodyId == 'calculator'){ window.location.href = "product.html";  }
    else {
        navigator.app.backHistory()
    }
